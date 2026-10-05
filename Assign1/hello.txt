@@ -1,0 +1,13 @@
+const studentName = "Phyllis";
+
+console.log("Hello, " + studentName);
+console.log("JavaScript is running with Node.js!");
+
+
+To run it, follow these steps:
+
+Open VS Code and create a new file named hello.js.
+Paste the above code into the file and save it.
+Open the terminal in VS Code (View > Terminal).
+Navigate to the directory containing hello.js if needed.
+Run the command:
