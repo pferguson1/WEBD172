@@ -1,0 +1,17 @@
+{
+  "name": "Express-Server",
+  "version": "1.0.0",
+  "description": "Assignment 3: Express Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Phyllis Ferguson",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
