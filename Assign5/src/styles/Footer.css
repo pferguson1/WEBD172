@@ -1,0 +1,45 @@
+.app-Footer {
+  display: flex;
+  padding: 20px 0 0 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: auto;
+
+  justify-content: space-between;
+  text-wrap: inherit;
+  align-items: center;
+  gap: 25px;
+  min-width: 400px;
+  padding-left: 70px;
+
+  justify-items: center;
+}
+.Footer-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 16px;
+  font-weight: bold;
+  align-items: center;
+}
+.Footer-inner p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.app-Footer a {
+  color: rgb(37, 129, 210);
+}
+p {
+  margin-block-start: 1em;
+  padding-right: 50px;
+}
+.Footer-links {
+  text-decoration: none;
+  color: rgb(37, 129, 210);
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    padding-right: 30px;
+  }
+

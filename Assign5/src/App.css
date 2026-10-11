@@ -1,0 +1,303 @@
+/* Main App Container - Full viewport height with gradient background */
+.App {
+  display: block;
+  width: 900px;
+  height: auto;
+  background: linear-gradient(135deg, #a4a4e8 0%, #c695e4 100%);
+  margin-bottom: 40px;
+  padding: 20px 0 0 40px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  
+}
+
+/* App Header Section - Title and description styling */
+.app-header {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: rgb(10, 10, 10);
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+/* App Header Main Title */
+.app-header h1 {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* App Header Subtitle */
+.app-header p {
+  font-size: 1.2em;
+  margin: 10px 0 0 0;
+  opacity: 0.95;
+}
+section {
+  margin-bottom: 35px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+/* // ...existing code...
+/* Control Panel - Contains search, filter, and toggle buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 60px;
+  background: rgba(246, 243, 243, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+/* Search Input Box */
+.search-box {
+  min-width: 400px;
+  padding-left: 70px;
+  justify-items: center;
+}
+
+/* Search Input Field */
+.search-box input {
+  width: 90%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  box-shadow: 0 4px 12px rgba(100, 98, 219, 0.317);
+  transition: all 0.3s ease;
+}
+
+/* Search Input Focus State */
+.search-box input:focus {
+  outline: none;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Filter Section - Level filtering */
+.filter-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Filter Label */
+.filter-box label {
+  color: rgb(9, 9, 9);
+  font-weight: 600;
+  font-size: 1em;
+}
+
+/* Global Label Styling */
+label {
+  display: inline-block;
+  color: rgb(8, 8, 8);
+  font-weight: 600;
+  font-size: 0.95em;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+label:hover {
+  color: #101010;
+}
+
+/* Global Paragraph Styling */
+p {
+   
+  line-height: 1.6;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s ease;
+
+  
+}
+
+/* Paragraph with class .p - Additional styling */
+.p {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 15px;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+
+/* Filter Dropdown Select */
+.filter-box select {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  background: white;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Filter Dropdown Hover State */
+.filter-box select:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Filter Dropdown Focus State */
+.filter-box select:focus {
+  outline: none;
+  box-shadow: 0 4px 12px rgba(100, 98, 219, 0.317);
+}
+
+/* Toggle Button - Show/Hide Courses */
+.toggle-box {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  background: white;
+  color: #080808;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  box-shadow: 0 4px 12px rgba(100, 98, 219, 0.317);
+  transform: translateY(-2px);
+}
+
+/* Statistics Section - Shows enrollment count and filter results */
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  color: rgb(97, 95, 95);
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+
+/* Individual Stat Items */
+.stats p {
+  align-items: center;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  backdrop-filter: blur(10px);
+}
+
+/* Stat Numbers - Highlighted in gold */
+.stats strong {
+  color: #dd0d10;
+  font-size: 1.2em;
+}
+/* ===== RESPONSIVE DESIGN - Media Queries ===== */
+
+/* Tablet and Mobile Devices - 760px and below */
+@media (max-width: 760px) {
+  /* Adjust app padding for smaller screens */
+  .App {
+    margin-bottom: 40px;
+    padding: 15px 0px 0 40px;
+    border-color: #555;
+  }
+
+  /* Reduce header font size on smaller screens */
+  .app-header h1 {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .app-header p {
+    font-size: 1em;
+  }
+
+  /* Stack controls vertically on smaller screens */
+  .controls {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 15px;
+  }
+
+  /* Full width search box */
+  .search-box {
+    width: 100%;
+    min-width: unset;
+  }
+
+  /* Full width filter box */
+  .filter-box {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .filter-box select {
+    flex: 1;
+    margin-left: 10px;
+  }
+
+  /* Full width toggle button */
+  .toggle-box {
+    width: 100%;
+  }
+
+  .toggle-btn {
+    width: 100%;
+  }
+
+  /* Stack stats vertically */
+  .stats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .stats p {
+    display: inline-block;
+    width:auto;
+    max-width: 100%;
+    align-self: center;
+    margin: 0 auto;
+  }
+}
