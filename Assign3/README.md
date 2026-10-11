@@ -1,5 +1,9 @@
 # Assign3 - Express Server
 
+## Assignment Name
+
+Assign3 - Express Server
+
 This assignment is a basic Express.js server with static pages and simple routes for text, HTML, JSON, and route parameters.
 
 ## Features
@@ -22,12 +26,16 @@ This assignment is a basic Express.js server with static pages and simple routes
 - `public/script.js` - Client-side fetch for course data on the home page
 - `public/styles.css` - Shared styling for all pages
 
+## Getting Started with Create React App
+
+This project was not created with Create React App. It is a Node.js and Express assignment. This section is included only to match the requested README format.
+
 ## Requirements
 
 - Node.js
 - npm
 
-## Installation
+## Installation Dependencies
 
 From the `Assign3` folder, install dependencies:
 
@@ -35,7 +43,27 @@ From the `Assign3` folder, install dependencies:
 npm install
 ```
 
-## Run the Server
+Installed dependency:
+
+- `express`
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Starts the Express server with `server.js`.
+
+Open `http://localhost:3000` to view the application in your browser.
+
+### `npm test`
+
+Currently returns the default placeholder test script from `package.json`.
+
+## Project Directory, You Can Run
+
+From the `Assign3` project directory, you can run:
 
 ```bash
 npm start
@@ -66,6 +94,7 @@ The app runs at:
 ## Example Route Output
 
 ### `/hello`
+
 Returns:
 
 ```text
@@ -73,6 +102,7 @@ Hello from Express!
 ```
 
 ### `/courses`
+
 Returns a JSON array of course objects such as:
 
 ```json
@@ -89,6 +119,7 @@ Returns a JSON array of course objects such as:
 ```
 
 ### `/student/Phyllis`
+
 Returns:
 
 ```text
