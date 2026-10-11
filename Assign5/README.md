@@ -1,6 +1,53 @@
-# Getting Started with Create React App
+# Assign5 - Course Dashboard React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment Name
+
+Assign5 - Course Dashboard React App
+
+This assignment is a React application that displays a course dashboard with search, filtering, enrollment tracking, and reusable components.
+
+## Features of the Project
+
+- Built with React and Create React App
+- Displays a list of courses using reusable components
+- Lets users enroll and unenroll in courses
+- Supports searching by course title or instructor
+- Filters courses by level: `All`, `Beginner`, `Intermediate`, and `Advanced`
+- Shows enrollment statistics and visible course count
+- Allows the course list to be shown or hidden
+- Uses separate components for the course list, course card, and footer
+
+## Project Structure
+
+```text
+Assign5/
+├── package.json
+├── package-lock.json
+├── README.md
+├── COMPONENT_MAP.md
+├── public/
+└── src/
+    ├── App.js
+    ├── App.css
+    ├── App.test.js
+    ├── index.js
+    ├── index.css
+    ├── logo.svg
+    ├── reportWebVitals.js
+    ├── setupTests.js
+    ├── components/
+    │   ├── CourseCard.js
+    │   ├── CourseList.js
+    │   └── Footer.js
+    └── styles/
+        ├── CourseCard.css
+        ├── CourseList.css
+        └── Footer.css
+```
+
+## Getting Started with Create React App
+
+This project was bootstrapped with Create React App and uses `react-scripts` for development, testing, and production builds.
 
 ## Available Scripts
 
@@ -8,63 +55,89 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open `http://localhost:3000` to view it in your browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production into the `build` folder.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Copies Create React App configuration files into the project for full control of the build setup.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Directory, You Can Run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+From the `Assign5` project directory, you can run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+npm start
+```
 
-## Learn More
+## Installation Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies with:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+Main dependencies used in this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `react`
+- `react-dom`
+- `react-scripts`
+- `web-vitals`
+- `@testing-library/react`
+- `@testing-library/jest-dom`
+- `@testing-library/user-event`
+- `@testing-library/dom`
 
-### Analyzing the Bundle Size
+## Available Routes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is a front-end React application and does not define Express or API routes.
 
-### Making a Progressive Web App
+Available browser path during development:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `/` - Loads the Course Dashboard home page
 
-### Advanced Configuration
+## Data Routes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+There are no backend data routes in this assignment.
 
-### Deployment
+All course data is stored locally in [src/App.js](src/App.js) inside the `coursesData` array.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Example Route Output
 
-### `npm run build` fails to minify
+### `/`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Displays the Course Dashboard interface with:
+
+- page header
+- search box
+- level filter dropdown
+- show/hide courses button
+- enrollment statistics
+- list of course cards
+- footer links
+
+## Front-End Behavior
+
+- `App` manages the main state with `useState`
+- The course list is rendered through the `CourseList` component
+- Each course is displayed in a reusable `CourseCard`
+- Clicking the enroll button toggles between `Enroll Now` and `✓ Enrolled`
+- Search updates the visible course list in real time
+- Filter selection narrows courses by difficulty level
+- The stats section updates automatically based on enrollment and filtering
+- The footer displays the current year and navigation links
+
+## Author
+
+Phyllis Ferguson
