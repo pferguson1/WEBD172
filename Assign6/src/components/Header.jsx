@@ -1,9 +1,11 @@
 function Header() {
   return (
     <header className="header">
-      <h1>Searchable User Directory</h1>
-      <p>WEBD 172 React API Explorer</p>
+      <h1>User | Task Manager</h1>
+      <p>WEBD 172 React Review</p>
     </header>
+
+
   );
 }
 
