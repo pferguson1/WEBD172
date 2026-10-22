@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBD 172 | Movie Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- Header -->
+        <header>
+          <h1>Welcome to the WEBD 172 Movie Portal</h1>
+          <p>
+            A place to explore and learn about the movies offered in the WEBD
+            172 program. Browse through the available movies and find the ones
+            that interest you!
+          </p>
+        </header>
+      </section>
+      <!-- End of Header -->
+
+      <!-- Section to display available movies -->
+      <section>
+        <h2>Available Movies</h2>
+        <!-- Button to load movies -->
+        <button id="loadMovies">Load Movies</button>
+      </section>
+      <!-- Movie list will be populated here -->
+      <section>
+        <div id="movies"></div>
+        <h3>Movie List</h3>
+        <div class="hidden">
+        </div>
+        
+        <!-- End of Movies Section -->
+      </section>
+
+      <!-- Section to find a movie by ID -->
+      <section>
+        <h2>Find a movie by ID</h2>
+        <form id="movieForm">
+          <label for="movieId">Movie ID:</label>
+          <input id="movieId" type="number" min="1" required />
+          <button type="submit">Find Movie</button>
+        </form>
+        <div id="movieResult"></div>
+      </section>
+      <!-- End of Find a Movie by ID Section -->
+
+      <!-- Section to display Movie details -->
+      <section>
+        <h2>Express Generated Page</h2>
+        <p>
+          <a href="/about">Visit About Page Route</a>
+        </p>
+      </section>
+    </main>
+    <!-- End of Movie Details Section -->
+    <script src="script.js"></script>
+  </body>
+</html>
