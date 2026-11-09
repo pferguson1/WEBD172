@@ -1,0 +1,66 @@
+[
+  {
+    
+    "id": 1,
+    "name": "The House of Wax",
+    "year": 1953,
+    "description": "An obsessed pathologist discovers and captures a parasitic creature that grows when fear grips its host.",
+    "image": "theHouseOfWaxImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05a')",
+    "id": 2,
+    "name": "Tales of Terror",
+    "year": 1962,
+    "description": "A horror movie star returns Three short sequences, based on the following Poe tales, are presented: 'Morella', 'The Black Cat', and 'The Facts in the Case of M. Valdemar.",
+    "image": "talesOfTerrorImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05b')",
+    "id": 3,
+    "name": "The Raven",
+    "year": 1963,
+    "description": "A magician, who has been turned into a raven, turns to a former sorcerer for help.",
+    "image": "theRavenImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05c')",
+    "id": 4,
+    "name": "The Tingler",
+    "year": 1959,
+    "description": "An obsessed pathologist discovers and captures a parasitic creature that grows when fear grips its host.",
+    "image": "theTinglerImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05d')",
+    "id": 5,
+    "name": "The Fly",
+    "year": 1958,
+    "description": "A scientist's experiment to teleport a fly goes horribly wrong, merging the fly with his own DNA.",
+    "image": "theFlyImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05e')",
+    "id": 6,
+    "name": "The Bat",
+    "year": 1958,
+    "description": "Cornelia Van Gorder goes on a hunting trip with her physician, Dr. Malcolm Wells. Fleming confesses to stealing over $1 million in negotiable securities from the bank. Wells shoots Fleming and covers up the murder.",
+    "image": "theBatImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f05f')",
+    "id": 7,
+    "name": "Theatre of Blood",
+    "year": 1958,
+    "description": "After being humiliated by members of the London Theatre Critics Guild, Vincent Price, Shakespearean actor is seen apparently committing suicide by diving into the Thames from a great height. He actually survives, however, and is rescued by a group of vagrants.",
+    "image": "theatreOfBloodImage.jpg"
+  },
+  {
+    "_id": "ObjectId('6af1263191c9eecdd680f060')",
+    "id": 8,
+    "name": "MadHouse",
+    "year": 1958,
+    "description": "Paul Toombes is a successful horror actor whose trademark role is Dr. Death, a skull-faced serial killer. When Toombes' wife is murdered, he is accused of the crime and sent to an asylum. The real killer, however, is still at large.",
+    "image": "madHouseImage.jpg"
+  }
+]
